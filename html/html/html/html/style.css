@@ -1,0 +1,50 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+    font-family: sauce;
+    src: url('stratum2.ttf');
+}
+
+html, body {
+  overflow: hidden;
+}
+
+.kill-feed {
+    position: absolute;
+    top: 45%;
+    right: 20px;
+}
+
+.kill-feed > div {
+    padding: 6px 8px 6px 8px;
+    margin: 0;
+    display: inline-block;
+    clear: both;
+    border: none;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: right;
+    border-radius: 5px;
+    margin-top: -2.5%;
+}
+
+.kill-feed div span {
+    vertical-align: middle;
+}
+
+.kill-feed div span.weapons > img {
+    border: none;
+    outline: none;
+    margin: 0px 5px;
+}
+
+.kill-feed div > span.kill-text {
+    color: rgb(255, 255, 255);
+    font-family: 'sauce', 'Bebas Neue', sans-serif;  /* Added fallback font */
+    font-size: 16px;
+    margin: 0 2px;
+    text-align: left;
+}
